@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Changed lines were isolated and shown together for easy comparison.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Much easier to see the evolution of a project
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually saving forces you to take charge of the process. 
+    The problem is remembering to do it and to do it consistently. 
+    Google ensures that it happens whether you are paying attention or not. 
+    However, there is a little bit of loss of control
+    Google autosave does not necessarily save at logical points
+    Manual save allows for grouping logical changes so that versions reflect them
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Since Git is designed for tracking code changes, it is designed for tracking changes to dependent code
+    E.g.: .h or .css files that affect .html or .c functionality
+    Google is designed as an alternative to Word, but cloud-based with an autosave feature
+    It's not designed as a code version-control systm
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the entire history of a project with all of its logical changes. 
+    If the comments are good, it can show you a nice overview of the development of a project.
+    git diff shows the specific changes between two different version commits of a project
+    If the changes in a commit are targeted and succinct, it will be easy to follow the code changes between versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Git version control makes it very easy to try out different versions of a project.
+    Changes between versions can be isolated
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Let's start using it on my files for project 1
