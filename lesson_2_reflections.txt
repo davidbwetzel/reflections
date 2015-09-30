@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Git creates an empty .git directory.
+	You would need to >git add [files] 
+	>git status will show directory contents as "untracked files" until they are explicitly added to the repository
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area allows you to select which files you want to put into the next commit. This is useful when you have files in the directory you do not want to include in the repository (yet)
+	
